@@ -1,0 +1,33 @@
+# Project information
+site_name: Napne/PAR
+site_url: https://napne.par.ifrn.edu.br/
+site_author: Equipe do Napne do campus Parnamirim
+site_dir: /var/www/napne.par/
+site_description: >-
+  Sítio eletrônico do Núcleo de Apoio a Pessoas com Necessidades Especiais.
+
+# Repository
+repo_url: https://gitlab.devops.ifrn.edu.br/napne.par/site-mange
+edit_uri: "edit/main"
+
+# Copyright
+copyright: Copyright &copy; 2023 Napne/PAR
+
+# Configuration
+theme:
+  name: material
+  language: pt
+
+markdown_extensions:
+  - meta
+  - def_list
+  - pymdownx.keys
+  - attr_list
+
+plugins: 
+  - search
+  - mermaid2
+
+
+
+
